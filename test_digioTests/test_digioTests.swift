@@ -6,7 +6,8 @@
 //
 
 import XCTest
-@testable import test_digio
+
+
 
 class test_digioTests: XCTestCase {
 

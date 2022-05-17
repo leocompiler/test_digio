@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9346274828289AB90060A69C /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9346274728289AB90060A69C /* DetailViewController.xib */; };
+		9346274A28289B4C0060A69C /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9346274928289B4C0060A69C /* HomeViewController.xib */; };
+		9346274E282D5A0F0060A69C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9346274D282D5A0F0060A69C /* Item.swift */; };
+		93462754283137B90060A69C /* CustomerTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93462753283137B90060A69C /* CustomerTableView.swift */; };
+		9346275A2831A2740060A69C /* start_app.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934627592831A2740060A69C /* start_app.storyboard */; };
 		938EA38B2821567000AD78B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EA38A2821567000AD78B5 /* AppDelegate.swift */; };
-		938EA38D2821567000AD78B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EA38C2821567000AD78B5 /* SceneDelegate.swift */; };
-		938EA38F2821567000AD78B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EA38E2821567000AD78B5 /* ViewController.swift */; };
-		938EA3922821567000AD78B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938EA3902821567000AD78B5 /* Main.storyboard */; };
+		938EA38F2821567000AD78B5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EA38E2821567000AD78B5 /* DetailViewController.swift */; };
 		938EA3952821567000AD78B5 /* test_digio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 938EA3932821567000AD78B5 /* test_digio.xcdatamodeld */; };
 		938EA3972821567200AD78B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 938EA3962821567200AD78B5 /* Assets.xcassets */; };
-		938EA39A2821567200AD78B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938EA3982821567200AD78B5 /* LaunchScreen.storyboard */; };
 		938EA3A52821567200AD78B5 /* test_digioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EA3A42821567200AD78B5 /* test_digioTests.swift */; };
 		938EA3B02821567200AD78B5 /* test_digioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EA3AF2821567200AD78B5 /* test_digioUITests.swift */; };
+		938EA3BF2821578000AD78B5 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EA3BE2821578000AD78B5 /* Product.swift */; };
+		938EA3C42821A46B00AD78B5 /* ProductsServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EA3C32821A46B00AD78B5 /* ProductsServices.swift */; };
+		938EA3C62821B65C00AD78B5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EA3C52821B65C00AD78B5 /* HomeViewController.swift */; };
+		938EA3C82821EC1B00AD78B5 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EA3C72821EC1B00AD78B5 /* ItemCell.swift */; };
+		938EA3CA2821ED6400AD78B5 /* ListProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EA3C92821ED6400AD78B5 /* ListProductsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +43,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9346274728289AB90060A69C /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		9346274928289B4C0060A69C /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		9346274D282D5A0F0060A69C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		93462753283137B90060A69C /* CustomerTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerTableView.swift; sourceTree = "<group>"; };
+		934627592831A2740060A69C /* start_app.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = start_app.storyboard; sourceTree = "<group>"; };
 		938EA3872821567000AD78B5 /* test_digio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_digio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		938EA38A2821567000AD78B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		938EA38C2821567000AD78B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		938EA38E2821567000AD78B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		938EA3912821567000AD78B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		938EA38E2821567000AD78B5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		938EA3942821567000AD78B5 /* test_digio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = test_digio.xcdatamodel; sourceTree = "<group>"; };
 		938EA3962821567200AD78B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		938EA3992821567200AD78B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		938EA39B2821567200AD78B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		938EA3A02821567200AD78B5 /* test_digioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_digioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		938EA3A42821567200AD78B5 /* test_digioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_digioTests.swift; sourceTree = "<group>"; };
@@ -51,6 +60,11 @@
 		938EA3AB2821567200AD78B5 /* test_digioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_digioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		938EA3AF2821567200AD78B5 /* test_digioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_digioUITests.swift; sourceTree = "<group>"; };
 		938EA3B12821567200AD78B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		938EA3BE2821578000AD78B5 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		938EA3C32821A46B00AD78B5 /* ProductsServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsServices.swift; sourceTree = "<group>"; };
+		938EA3C52821B65C00AD78B5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		938EA3C72821EC1B00AD78B5 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		938EA3C92821ED6400AD78B5 /* ListProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProductsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +115,13 @@
 		938EA3892821567000AD78B5 /* test_digio */ = {
 			isa = PBXGroup;
 			children = (
+				938EA3BD2821576500AD78B5 /* Models */,
+				938EA3C028219F4B00AD78B5 /* Services */,
+				938EA3C228219F8A00AD78B5 /* ViewModels */,
+				938EA3C128219F7600AD78B5 /* Views */,
 				938EA38A2821567000AD78B5 /* AppDelegate.swift */,
-				938EA38C2821567000AD78B5 /* SceneDelegate.swift */,
-				938EA38E2821567000AD78B5 /* ViewController.swift */,
-				938EA3902821567000AD78B5 /* Main.storyboard */,
+				934627592831A2740060A69C /* start_app.storyboard */,
 				938EA3962821567200AD78B5 /* Assets.xcassets */,
-				938EA3982821567200AD78B5 /* LaunchScreen.storyboard */,
 				938EA39B2821567200AD78B5 /* Info.plist */,
 				938EA3932821567000AD78B5 /* test_digio.xcdatamodeld */,
 			);
@@ -129,6 +144,44 @@
 				938EA3B12821567200AD78B5 /* Info.plist */,
 			);
 			path = test_digioUITests;
+			sourceTree = "<group>";
+		};
+		938EA3BD2821576500AD78B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				938EA3BE2821578000AD78B5 /* Product.swift */,
+				9346274D282D5A0F0060A69C /* Item.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		938EA3C028219F4B00AD78B5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				938EA3C32821A46B00AD78B5 /* ProductsServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		938EA3C128219F7600AD78B5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				938EA3C52821B65C00AD78B5 /* HomeViewController.swift */,
+				9346274928289B4C0060A69C /* HomeViewController.xib */,
+				938EA38E2821567000AD78B5 /* DetailViewController.swift */,
+				9346274728289AB90060A69C /* DetailViewController.xib */,
+				93462753283137B90060A69C /* CustomerTableView.swift */,
+				938EA3C72821EC1B00AD78B5 /* ItemCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		938EA3C228219F8A00AD78B5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				938EA3C92821ED6400AD78B5 /* ListProductsViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +287,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				938EA39A2821567200AD78B5 /* LaunchScreen.storyboard in Resources */,
+				9346274A28289B4C0060A69C /* HomeViewController.xib in Resources */,
+				9346275A2831A2740060A69C /* start_app.storyboard in Resources */,
 				938EA3972821567200AD78B5 /* Assets.xcassets in Resources */,
-				938EA3922821567000AD78B5 /* Main.storyboard in Resources */,
+				9346274828289AB90060A69C /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +315,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				938EA38F2821567000AD78B5 /* ViewController.swift in Sources */,
+				938EA3BF2821578000AD78B5 /* Product.swift in Sources */,
+				938EA38F2821567000AD78B5 /* DetailViewController.swift in Sources */,
 				938EA38B2821567000AD78B5 /* AppDelegate.swift in Sources */,
+				938EA3CA2821ED6400AD78B5 /* ListProductsViewModel.swift in Sources */,
+				9346274E282D5A0F0060A69C /* Item.swift in Sources */,
+				938EA3C42821A46B00AD78B5 /* ProductsServices.swift in Sources */,
 				938EA3952821567000AD78B5 /* test_digio.xcdatamodeld in Sources */,
-				938EA38D2821567000AD78B5 /* SceneDelegate.swift in Sources */,
+				938EA3C82821EC1B00AD78B5 /* ItemCell.swift in Sources */,
+				938EA3C62821B65C00AD78B5 /* HomeViewController.swift in Sources */,
+				93462754283137B90060A69C /* CustomerTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,25 +358,6 @@
 			targetProxy = 938EA3AC2821567200AD78B5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		938EA3902821567000AD78B5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				938EA3912821567000AD78B5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		938EA3982821567200AD78B5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				938EA3992821567200AD78B5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		938EA3B22821567200AD78B5 /* Debug */ = {
@@ -443,6 +484,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M3CQ93J3WS;
 				INFOPLIST_FILE = test_digio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +492,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "leocompiler.test-digio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -462,6 +504,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M3CQ93J3WS;
 				INFOPLIST_FILE = test_digio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,7 +512,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "leocompiler.test-digio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
